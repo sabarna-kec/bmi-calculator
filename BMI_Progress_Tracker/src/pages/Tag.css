@@ -1,0 +1,36 @@
+.Main-container{
+    font-family: calibri;
+    width: 100vw;
+    height: 100vh;
+    /* border-radius: 3rem; */
+    background-color: rgb(224, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.container{
+    background-color: #ffffff;
+    padding :1rem;
+    width:350px ;
+    border-radius: 0.2rem;
+}
+.tagbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(197, 197, 197);
+    border: 1px solid rg;
+    padding:0.5em 0.5em;
+    gap:1.4em;
+    border-radius: 0.2rem;
+}
+.tag{
+    padding: 0.2rem 2.8rem;
+    border-radius: inherit;
+    color:rgb(117, 117, 117);
+    font-weight:700;
+}
+.tag.active{
+    background-color: #ffffff;
+    color:rgb(14, 16, 27);
+}

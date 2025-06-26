@@ -1,0 +1,35 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+.card{
+    font-family: calibri;
+    padding: 1rem 2rem;
+    width: 20em;
+   
+}
+.card form{
+    display:flex;
+    flex-direction: column;
+    gap:0.7rem;
+}
+.card label{
+    display: block;
+    margin-bottom: 0.2em;
+}
+.card input{
+    padding:0.5rem;
+    width: 100%;
+    border-radius:0.2rem;
+    border:1px solid grey;
+}
+.card button{
+    padding: 0.5rem;
+    width: 100%;
+    border-radius:0.2rem;
+    border:1px solid blue;
+    background-color: rgb(49, 35, 199);
+    color:white;
+}
